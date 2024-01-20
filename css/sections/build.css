@@ -1,0 +1,43 @@
+.build__block {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(305px, 1fr));
+  grid-gap: 16px;
+  text-align: center;
+}
+
+.build__block-item {
+  padding: 23px;
+  max-width: 310px;
+  border-radius: 40px;
+  background: radial-gradient(50% 50% at 50% 50%, #433D60 0%, #211E2E 100%);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.build__block-item .block__item-img {
+  border: 10px solid #343045;
+  border-radius: 50%;
+  margin-bottom: 21px;
+}
+.build__block-item .block__item-title {
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-bottom: 17px;
+  border-bottom: 1px solid rgba(192, 183, 232, 0.33);
+}
+.build__block-item .block__item-text {
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 21px 0 31px 0;
+}
+
+/*# sourceMappingURL=build.css.map */

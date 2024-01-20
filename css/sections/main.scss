@@ -1,0 +1,280 @@
+@import "../global.scss";
+
+
+.main{
+
+  .centr{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.main__content{
+  max-width: 460px;
+  width: 100%;
+}
+
+.main__title{
+  font-family: Montserrat;
+  font-size: 46px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.main__text{
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+  margin-top: 33px;
+  margin-bottom: 66px;
+}
+
+.main__btn{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  max-width: 330px;
+  width: 100%;
+  .mainb{
+    margin-right: 40px;
+  }
+}
+
+.main__ill-block{
+  position: relative;
+  overflow: visible;
+}
+
+.main__ill-lines{
+  position: absolute;
+  background-image: url("../../assets/images/rLines.svg");
+
+  height: 845px;
+  width: 735px;
+
+  top: -223px;
+  left: -127px;
+  content: "";
+  z-index: -1;
+}
+
+.main__illustration{
+  z-index: 10;
+}
+
+
+.main__banner{
+  margin-top: 110px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+
+  border-radius: 90px;
+  background: radial-gradient(50% 100% at 50% 0%, rgba(58, 52, 86, 0.95) 0%, #211E2E 100%);
+  box-shadow: 0px 4px 4px 0px rgba(192, 183, 232, 0.01);
+}
+
+.banner__block{
+  height: 116px;
+  padding: 0 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 490px;
+}
+
+.banner__block-content{
+
+}
+
+.banner__block-img{
+  margin-right: 23px;
+}
+
+.banner__block-text{
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.banner__block-title{
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.banner__block:nth-child(2) {
+  border-right: 1px solid $scColor;
+  border-left: 1px solid $scColor;
+}
+
+
+/* Carousell bellow! */
+
+.main__banner-small{
+  margin-top: 110px;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 40px;
+  height: 110px;
+  overflow: hidden;
+
+  position: relative;
+
+  border-radius: 90px;
+  background: radial-gradient(50% 100% at 50% 0%, rgba(58, 52, 86, 0.95) 0%, #211E2E 100%);
+  box-shadow: 0px 4px 4px 0px rgba(192, 183, 232, 0.01);
+}
+
+.main__banner-carousel__track{
+transition: all 1s;
+
+  position: absolute;
+  content: '';
+  top: 20%;
+  left: 0;
+
+  min-width: 1050px ;
+  width: 100%;
+  padding: 0 60px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.banner__block-carousel__item{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  max-width: 260px;
+  min-width: 260px;
+
+  img{
+    margin-right: 5px;
+  }
+}
+
+.carousel__next{
+  position: absolute;
+  content: '';
+  top: 30%;
+  right: 10px;
+  width: 30px;
+  height: 30px;
+}
+
+.carousel__prev{
+  position: absolute;
+  content: '';
+  top: 30%;
+  left: 10px;
+  width: 30px;
+  height: 30px;
+}
+
+.carousel__prev path {
+  fill: none;
+  stroke: #fff;
+  stroke-width: 1.5;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  transition: all 0.3s;
+}
+
+.carousel__prev path:hover {
+  fill: none;
+  stroke: $scColor;
+  stroke-width: 1.5;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.carousel__next path {
+  fill: none;
+  stroke: #fff;
+  stroke-width: 1.5;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  transition: all 0.3s;
+}
+
+.carousel__next path:hover {
+  fill: none;
+  stroke: $scColor;
+  stroke-width: 1.5;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+@media (max-width: 1200px) {
+  .main__banner-small{
+    display: flex;
+  }
+
+  .main__banner{
+    display: none;
+  }
+}
+
+@media (max-width: 690px) {
+  .main__text{
+    display: none;
+  }
+
+  .centr{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .main__title{
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 30px;
+  }
+
+  .main__content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .main__btn{
+    justify-content: center;
+    .mainb{
+      margin: 36px 0 0 0;
+    }
+  }
+
+  .main{
+
+    .arrow{
+      display: none;
+    }
+  }
+}
+
+@media (max-width: 390px) {
+
+}

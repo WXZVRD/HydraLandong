@@ -1,0 +1,18 @@
+
+/* ------ SECTION .css FILES ------ */
+
+@import "sections/main.css";
+@import "sections/header.css";
+@import "sections/build.css";
+@import "sections/form.css";
+@import "sections/how.css";
+@import "sections/introduction.css";
+@import "sections/technologies.css";
+
+/* ------ GENERAL .css FILES ------ */
+
+@import "general/normalize.css";
+@import "general/presets.css";
+@import "general/general.css";
+@import "global.css";
+

@@ -1,0 +1,116 @@
+/* Reset CSS */
+
+/* Box-sizing reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Margin and padding reset */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+dl,
+li,
+dt,
+dd,
+blockquote,
+figure,
+fieldset,
+pre,
+iframe,
+hr,
+button,
+input,
+select,
+textarea {
+  margin: 0;
+  padding: 0;
+}
+
+/* Typography reset */
+body,
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+  font-weight: normal;
+}
+
+/* Reset other elements */
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Table reset */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Reset form elements */
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+}
+
+/* Reset button and input elements */
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  cursor: pointer;
+  -webkit-appearance: button;
+}
+
+/* Remove inner padding and border in Firefox */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+/* Remove outline in IE */
+button,
+input,
+select,
+textarea {
+  outline: none;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Media query for small screens */
+@media only screen and (max-width: 600px) {
+  /* Add your mobile-specific styles here */
+}
