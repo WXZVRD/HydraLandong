@@ -2,7 +2,11 @@
 # HydraLandong
 ![Альтернативный текст](./README/Hydra-Desktop-UserView.png)
 
-![Демо проекта](./README/HydraLandong-presentation.gif)
+## 🎬 Демонстрация проекта
+
+<p align="center">
+  <img src="./README/HydraLandong-presentation.gif" alt="Демонстрация проекта" width="800"/>
+</p>
 
 ## Технологии
 
