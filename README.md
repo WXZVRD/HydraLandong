@@ -1,6 +1,9 @@
 
 # HydraLandong
 ![Альтернативный текст](./README/Hydra-Desktop-UserView.png)
+
+![Демо проекта](README/presentation.gif)
+
 ## Технологии
 
 Проект разработан с использованием следующих технологий:
