@@ -5,7 +5,7 @@
 ## 🎬 Демонстрация проекта
 
 <p align="center">
-  <img src="./README/HydraLandong-presentation.gif" alt="Демонстрация проекта" width="800"/>
+  <img src="./README/HydraLandong-presentation.mp4" alt="Демонстрация проекта" width="800"/>
 </p>
 
 ## Технологии
